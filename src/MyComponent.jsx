@@ -1,3 +1,4 @@
+import './App.scss'
 function MyComponent() {
   return (
   <div className="bg-blue-500 p-10">
