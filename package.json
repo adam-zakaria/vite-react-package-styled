@@ -1,20 +1,19 @@
 {
-  "name": "vite-project",
-  "private": true,
+  "name": "vite-react-package-styled",
   "version": "0.0.0",
-  "type": "module",
+  "main": "src/babel_output.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sass": "^1.62.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "sass": "^1.62.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@vitejs/plugin-react": "^4.0.0-beta.0",
