@@ -22,7 +22,7 @@ module.exports= {
         require("autoprefixer")
       ],
       extract: false, // Inline styles to the JS file
-      modules: true,  // Use CSS modules
+      modules: false,  // Use CSS modules
       use: ["sass"]   // Use Sass as preprocessor
     }),
     babel({
